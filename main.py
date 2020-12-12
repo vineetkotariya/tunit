@@ -22,7 +22,7 @@ import torch.utils.data.distributed
 from models.generator import Generator as Generator
 from models.discriminator import Discriminator as Discriminator
 from models.guidingNet import GuidingNet
-from models.inception import InceptionV3
+#from models.inception import InceptionV3
 
 from train.train_unsupervised import trainGAN_UNSUP
 from train.train_semisupervised import trainGAN_SEMI
